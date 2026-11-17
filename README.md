@@ -53,6 +53,7 @@ These let you produce TLS/HTTP fingerprints that match a real browser, from insi
 
 - **[utls (refraction-networking)](https://github.com/refraction-networking/utls)** — Go library, the gold-standard TLS-handshake fork. Lets you specify exact ClientHello bytes including extension order, GREASE, etc. Foundation for many other tools.
 - **[curl-impersonate](https://github.com/lwthiker/curl-impersonate)** — `curl` patched to emit Chrome / Firefox / Safari / Edge fingerprints. Drop-in CLI replacement.
+- **[browsersmith](https://github.com/jverneuer/browsersmith)** — Node.js/TypeScript HTTP client stack that impersonates browser TLS (JA3/JA4), HTTP/2 SETTINGS and HTTP/1.1 header ordering from per-browser profiles.
 - **[bogdanfinn/tls-client](https://github.com/bogdanfinn/tls-client)** — Go HTTP client built on utls + their own h2 implementation; profiles for Chrome, Firefox, Safari, OkHttp, etc.
 - **[httpx (Python)](https://www.python-httpx.org/)** — modern Python HTTP client; not impersonation per se, but supports HTTP/2 and is friendlier than `requests` for fingerprint-control work.
 - **[tls-client (Python wrapper)](https://github.com/FlorianREGAZ/Python-Tls-Client)** — Python bindings around bogdanfinn/tls-client.
